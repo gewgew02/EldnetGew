@@ -156,8 +156,7 @@
                         <asp:TextBox ID="BdayTextBox" runat="server"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="BdayTextBox" Display="Dynamic" ErrorMessage="*Required" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
                         &nbsp;<br />
-                        <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="BdayTextBox" Display="Dynamic" ErrorMessage="Date Out of Range" ForeColor="Red" MaximumValue="31/12/2020 " MinimumValue="01/01/1910" SetFocusOnError="True" Type="Date"></asp:RangeValidator>
-                    </td>
+                        </td>
                     <td class="auto-style18">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</td>
                     <td class="auto-style20">
                         <asp:RadioButtonList ID="RBLGender" runat="server">

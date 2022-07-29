@@ -153,7 +153,7 @@ namespace EldnetGew
             HomePhoTextBox.Text = " ";
             OffPhoTextBox.Text = " ";
             SpouseTextBox.Text = " ";
-            DateTextBox.Text = " ";
+            DateTextBox.Text = null;
             OtherTextBox.Text = " ";
             RespTextBox.Text = " ";
             RelTextBox.Text = " ";
